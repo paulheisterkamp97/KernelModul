@@ -2,6 +2,6 @@
 #include <sys/types.h> 
 #include <unistd.h> 
 int main(int argc, char *argv[]){
-	printf("Hello World %d\n", (int)argv[0]);
+	printf("Hello World %s\n", argv[0]);
 	return 0;
 }
