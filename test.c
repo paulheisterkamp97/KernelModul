@@ -8,7 +8,7 @@ static int __init test_init(void){
 }
 
 
-static int __exit  test_exit(void){
+static void __exit  test_exit(void){
 	printk(KERN_INFO "Modul wurde rausgeschmissen\n");
 }
 
